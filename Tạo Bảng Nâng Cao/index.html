@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chess</title>
+        <style>
+        body{
+            padding: 50px ;
+ 
+        }       
+        #chess tr td {
+            padding: 30px;
+            
+        }
+
+        #chess tr:nth-child(even) td:nth-child(odd),
+        #chess tr:nth-child(odd) td:nth-child(even) {
+            background-color: black;
+        }
+        .chess{
+            width: 530px;
+            background-color:yellow;
+            padding: 30px;            
+        }
+        .calendar{
+            justify-content: center;
+            padding: 18px;
+            
+        }
+        h2{
+            padding-left: 200px;
+        }
+        .first_tr th:first-child{
+            background: red;
+            color:white;
+        }
+        .first_tr th:last-child{
+            background-color: blue;
+            color: white;
+        }
+        
+        tr th:first-child{
+            color:red;
+        }
+        tr th:last-child{
+            color:blue;
+        }
+        .calendar th, td{
+            padding: 20px 20px;
+        }
+        sub{
+            color: black;
+        }
+        
+        .calendar_tr th{
+            border: solid 1px black;
+        }
+    </style>
+    </head>
+    <body>
+        <header></header>
+        <main>
+            <div class="chess">
+                <table id="chess">
+                    <tr>
+                        <th></th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        <th>8</th>
+                    </tr>
+                    <tr>
+                        <th>A</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>B</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>C</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>D</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>E</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>F</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>G</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>H</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div><br>
+
+
+            <div class="calendar">
+                <h2>Tháng 10 - October</h2><br>
+                <table id="">
+                    <tr class="first_tr">
+                        <th>C.Nhật</th>
+                        <th>T.Hai</th>
+                        <th>T.Ba</th>
+                        <th>T.Tư</th>
+                        <th>T.Năm</th>
+                        <th>T.Sáu</th>
+                        <th>T.Bảy</th>
+                    </tr>
+                    <tr>
+                        <th>Sun</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                    </tr>
+                    <tr class="calendar_tr">
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th>
+                            <p>1<sub>13</sub></p> 
+                        </th>
+                        <th>
+                            <p>2<sub>14</sub></p>
+                        </th>
+                        <th>
+                            <p>3<sub>15</sub></p>
+                        </th>
+                    </tr>
+                    <tr class="calendar_tr">
+                        <th>
+                            <p>4<sub>16</sub></p>
+                        </th>
+                        <th>
+                            <p>5<sub>17</sub></p>
+                        </th>
+                        <th>
+                            <p>6<sub>18</sub></p>
+                        </th>
+                        <th>
+                            <p>7<sub>19</sub></p>
+                        </th>
+                        <th>
+                            <p>8<sub>20</sub></p> 
+                        </th>
+                        <th>
+                            <p>9<sub>21</sub></p>
+                        </th>
+                        <th>
+                            <p>10<sub>22</sub></p>
+                        </th>
+                    </tr>
+                    <tr class="calendar_tr">
+                        <th>
+                            <p>11<sub>23</sub></p>
+                        </th>
+                        <th>
+                            <p>12<sub>24</sub></p>
+                        </th>
+                        <th>
+                            <p>13<sub>25</sub></p>
+                        </th>
+                        <th>
+                            <p>14<sub>26</sub></p>
+                        </th>
+                        <th>
+                            <p>15<sub>27</sub></p> 
+                        </th>
+                        <th>
+                            <p>16<sub>28</sub></p>
+                        </th>
+                        <th>
+                            <p>17<sub>29</sub></p>
+                        </th>
+                    </tr>
+                    <tr class="calendar_tr">
+                        <th>
+                            <p>18<sub>1.9</sub></p>
+                        </th>
+                        <th>
+                            <p>19<sub>2</sub></p>
+                        </th>
+                        <th>
+                            <p>20<sub>3</sub></p>
+                        </th>
+                        <th>
+                            <p>21<sub>4</sub></p>
+                        </th>
+                        <th>
+                            <p>22<sub>5</sub></p> 
+                        </th>
+                        <th>
+                            <p>23<sub>6</sub></p>
+                        </th>
+                        <th>
+                            <p>24<sub>7</sub></p>
+                        </th>
+                    </tr>
+                    <tr class="calendar_tr">
+                        <th>
+                            <p>25<sub>8</sub></p>
+                        </th>
+                        <th>
+                            <p>26<sub>9</sub></p>
+                        </th>
+                        <th>
+                            <p>27<sub>10</sub></p>
+                        </th>
+                        <th>
+                            <p>28<sub>11</sub></p>
+                        </th>
+                        <th>
+                            <p>29<sub>12</sub></p> 
+                        </th>
+                        <th>
+                            <p>30<sub>13</sub></p>
+                        </th>
+                        <th>
+                            <p>31<sub>14</sub></p>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+        </main>
+        <footer></footer>
+    </body>
+
+</html>
